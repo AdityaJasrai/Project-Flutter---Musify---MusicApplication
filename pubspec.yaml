@@ -1,0 +1,109 @@
+name: musify
+description: Music Streaming and Downloading app made in Flutter!
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 3.6.0+35
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+  flutter: ^3.3.7
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  audio_service: ^0.18.7
+  audio_session: ^0.1.10
+  cached_network_image: ^3.2.2
+  dynamic_color: ^1.5.4
+  flutter:
+    sdk: flutter
+  flutter_downloader: ^1.9.0
+  flutter_localizations: 
+    sdk: flutter
+  fluttertoast: ^8.0.9
+  get_it: ^7.2.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^0.13.5
+  intl: ^0.17.0 
+  just_audio: ^0.9.30
+  material_design_icons_flutter: ^5.0.6996
+  on_audio_query: ^2.6.1
+  package_info_plus: ^3.0.1
+  path_provider: ^2.0.11
+  permission_handler: ^10.2.0
+  url_launcher: ^6.1.6
+  youtube_explode_dart: ^1.12.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.10.0
+  flutter_native_splash: ^2.2.13
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  # flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  generate: true
+  uses-material-design: true
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: fonts/ubuntu.ttf
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/db/playlists.db.json
+
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash.png
+  color_dark: "#151515"
+  image_dark: assets/images/splash.png
+
+  android_12:
+    image: assets/images/splash.png
+    icon_background_color: "#ffffff"
+    image_dark: assets/images/splash.png
+    icon_background_color_dark: "#151515"
+
+
+flutter_icons:
+  android: "launcher_icon"
+  adaptive_icon_background: "#191919"
+  adaptive_icon_foreground: "assets/images/ic_launcher_foreground.png"
+  adaptive_icon_round: "assets/images/ic_launcher_round.png"
+  image_path: "assets/images/ic_launcher.png"
+  ios: true
+

@@ -36,19 +36,4 @@
 
 ---
 
-  <h3 align="center">Download</h3>
-     <p align="center" style="align-items:center"><a href="https://github.com/gokadzev/Musify/releases" rel="GitHub Releases"><img width="100" height="100" src="https://telegra.ph/file/21bb2cc648561f192cea4.png"></a><a href="https://apt.izzysoft.de/fdroid/index/apk/com.gokadzev.musify" rel="IzzySoft"><img width="250" src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"></a></p>
-
-
----
-  <h3 align="center">Credits</h3>
-   <p align="center">
-   <a href="https://github.com/Harsh-23/Musify">https://github.com/Harsh-23/Musify</a>: <br>
-   <b>Initial code (now code is fully rebased/changed)<br>
-      App name<br>
-      App logo (which is remade as well)<b><br>
-   </p>
-   
----
-<h3 align="center">Do you like project?</h3>
-<p align="center" ><a href="https://www.buymeacoffee.com/gokadzev18" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a> </p>
+  
